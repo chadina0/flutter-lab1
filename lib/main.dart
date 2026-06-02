@@ -25,16 +25,20 @@ class HomePage extends StatelessWidget {
 
   final List<Lesson> lessons = [
     Lesson(
-      title: 'Програмування',
+      title: 'Back-end Програмування / Java for WEB',
       time: '08:30',
     ),
     Lesson(
       title: 'Бази даних',
-      time: '10:10',
+      time: '10:00',
     ),
     Lesson(
-      title: 'Flutter',
+      title: 'Програмування мобільних додатків',
       time: '11:50',
+    ),
+    Lesson(
+      title: 'Web-програмування',
+      time: '13:20',
     ),
   ];
 
